@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-ytjl
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0071-tenant/ci1t-830-0071-app/devfile-sample-ytjl@sha256:11e34a236406b04fe06036d95d7bde72b960e425a35b837d5e243d9a98c13870
+        name: my-nodejs
+        resources: {}
+status: {}
